@@ -1,0 +1,97 @@
+.homepage {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  color: #333; /* Dark text for better readability */
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent background */
+}
+
+.main-content {
+  display: flex;
+}
+
+.ingredients-section {
+  width: 25%;
+  background-color: #fff; /* Light blue background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.section-header {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.ingredient-category {
+  margin-bottom: 20px;
+}
+
+.category-title {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.ingredient-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ingredient-item {
+  background-color: #f0f8ff; /* Light background */
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.ingredient-item.selected {
+  background-color: #7cfc00; /* Light green for selected */
+}
+
+.ingredient-item:hover {
+  background-color: #7cfc00; /* Hover effect */
+}
+
+.recipes-section {
+  width: 75%;
+}
+
+.category-title,
+.ingredient-item {
+  color: #444;
+}
+.ingredient-search {
+  margin-bottom: 20px;
+}
+
+.ingredient-search input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
